@@ -1,5 +1,5 @@
 project = 'family-tree-customer-support'
-author = 'family-tree-customer-support
+author = 'family-tree-customer-support'
 release = '1.0'
 
 # Extensions
