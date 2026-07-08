@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://familytree-guide.readthedocs.io/en/latest/
