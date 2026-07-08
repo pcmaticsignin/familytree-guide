@@ -19,10 +19,19 @@ html_static_path = ['_static']
 html_js_files = ['chatbot.js']  # chatbot widget
 html_favicon = '_static/favicon.png'
 
-# Bing search verification
-html_context = {
-    'bing_verification_code': '59FDF959BB464F16C29E6DC18623CEF1'
-}
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+{{ super() }}
+
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="9dhv1CKAmbsyuggEJcSyXa5WBo_Y90CvjKwi462oEYs" />
+
+<!-- Bing Webmaster Verification -->
+<meta name="msvalidate.01" content="59FDF959BB464F16C29E6DC18623CEF1" />
+
+{% endblock %}
+
 
 # Base URL for sitemap
 html_baseurl = 'https://familytree-guide.readthedocs.io/en/latest/'
